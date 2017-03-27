@@ -143,17 +143,17 @@ Binary to Decimal Conversion Tool
 
 <FORM NAME="bintodec">
 
-Binary number to convert: 
+Insert Binary number: 
 <INPUT name="dec"  size=24  MAXLENGTH=24 >
 <BR>
 
-Decimal representation:
-<INPUT name="bin" size=7 MAXLENGTH=7>
+Decimal result:
+<INPUT name="bin" size=24 MAXLENGTH=24>
 <BR>
 <INPUT TYPE=button VALUE="Convert to Decimal"
 	onClick=Binary_to_decimal(document.forms[1].elements[0].value)>
 <BR><BR>
-<INPUT TYPE=Reset VALUE="Try it again!">
+<INPUT TYPE=Reset VALUE="Refresh!">
 
 </FORM>
 
@@ -162,6 +162,7 @@ Decimal representation:
 <b>Insert Decimal Number: </b><input type = "text" name = "deci" id = "deci" size = "15" maxlength = "15" />
 <input type="button" value="Convert!" onclick="dec2bin()" />
 <br><br>
+<input type=Reset VALUE="Refresh!">
 <div id = "result"></div>
 
 <script type = "text/javascript">
